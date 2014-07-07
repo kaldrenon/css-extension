@@ -1,0 +1,15 @@
+.editor {
+  padding: 10px;
+  font-family: Arial;
+}
+
+a {
+  padding: 5px;
+  color: #ABC;
+}
+
+a:hover {
+  color: #567;
+  background-color: #DDD;
+  border-radius: 20px;
+}
