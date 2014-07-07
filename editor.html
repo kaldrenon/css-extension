@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="/css/editor.css" type="text/css" media="screen" charset="utf-8">
+<script src="apply_css.js" type="text/javascript" charset="utf-8"></script>
 <div class="editor">
   <b>CSS:</b>
   <textarea name="CSS" rows="8" cols="40"></textarea>
@@ -6,3 +7,8 @@
   <br>
   <a id="apply-css">Apply</a>
 </div>
+<script type="text/javascript" charset="utf-8">
+  document.on('click', '#apply-css', function(event) {
+    alert('click');
+  });
+</script>
