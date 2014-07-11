@@ -16,3 +16,5 @@ I appreciate the reason that sites like http://zsh.sourceforge.net/FAQ/zshfaq01.
 * Save snippets
 * Optional "remember for next time" setting
 * Optional domain-level CSS (set styles for a whole site, instead of per page)
+* Cooler name for extension
+* Package and release (v1.0)
