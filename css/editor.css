@@ -13,3 +13,9 @@ a:hover {
   background-color: #DDD;
   border-radius: 20px;
 }
+
+#css-editor, .CodeMirror {
+  width: 400px;
+  height: 250px;
+}
+

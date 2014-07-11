@@ -13,7 +13,12 @@
   "content_scripts": [
     {
       "matches": ["http://*/*"],
-      "js": ["js/apply_css.js", "js/editor.js"]
+      "js": [
+        "js/apply_css.js",
+        "js/editor.js",
+        "vendor/codemirror/mode/css/css.js",
+        "vendor/codemirror/lib/codemirror.js"
+      ]
     }
   ],
 
