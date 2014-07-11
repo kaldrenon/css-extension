@@ -1,10 +1,12 @@
 // Set up a text field with syntax highlighting and line numbers for CSS edits
 var textArea = document.getElementById('css-editor');
 var codeMirror = CodeMirror.fromTextArea(textArea, {
-  mode: 'css',
-  lineNumbers: true,
-  tabSize: 2,
-  value: "body {\n  \n}"
+  mode:         'css',
+  lineNumbers:  true,
+  tabSize:      2,
+  value:        "body {\n  \n}",
+  gutters:      ["CodeMirror-lint-markers"],
+  lint:         'css'
 });
 
 // Configure the Apply button to pull CSS from the CodeMirror box and

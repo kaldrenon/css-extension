@@ -17,7 +17,12 @@
         "js/apply_css.js",
         "js/editor.js",
         "vendor/codemirror/mode/css/css.js",
-        "vendor/codemirror/lib/codemirror.js"
+        "vendor/codemirror/lib/codemirror.js",
+        "vendor/codemirror/addon/lint/lint.js",
+        "vendor/codemirror/addon/lint/css-lint.js"
+      ],
+      "css": [
+        "vendor/codemirror/addon/lint/lint.css"
       ]
     }
   ],
