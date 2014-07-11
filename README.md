@@ -1,5 +1,5 @@
-css-extension
-=============
+css-extension v(0.2)
+====================
 
 Making a chrome extension which will allow me to inject some CSS into pages
 
@@ -12,7 +12,7 @@ quickly slap a few attributes on the `body` tag so that I can make the page much
 
 ## To Do
 
-* Syntax highlighting
+* ~~Syntax highlighting~~
 * Linting
 * Save snippets
 * Optional "remember for next time" setting
