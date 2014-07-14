@@ -1,5 +1,5 @@
-css-extension v(0.2)
-====================
+# css-extension v0.2
+
 
 Making a chrome extension which will allow me to inject some CSS into pages
 
