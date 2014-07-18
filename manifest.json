@@ -16,6 +16,7 @@
       "js": [
         "js/apply_css.js",
         "js/editor.js",
+        "js/snippets.js",
         "vendor/codemirror/mode/css/css.js",
         "vendor/codemirror/lib/codemirror.js",
         "vendor/codemirror/addon/lint/lint.js",
@@ -28,6 +29,7 @@
   ],
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ]
 }

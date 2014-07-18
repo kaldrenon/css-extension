@@ -1,6 +1,14 @@
-.editor {
+.main-body {
   padding: 10px;
   font-family: Arial;
+}
+
+.editor {
+  
+}
+
+.menu-bar {
+  float: right;
 }
 
 a {
