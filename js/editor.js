@@ -4,9 +4,8 @@ var codeMirror = CodeMirror.fromTextArea(textArea, {
   mode:         'css',
   lineNumbers:  true,
   tabSize:      2,
-  value:        "body {\n  \n}",
   gutters:      ["CodeMirror-lint-markers"],
-  lint:         'css'
+  lint:         true
 });
 
 // Configure the Apply button to pull CSS from the CodeMirror box and
@@ -22,3 +21,7 @@ apply_btn.addEventListener('click', function(event) {
     console.log(cssBody);
   });
 });
+
+document.addEventListener('DOMContentLoaded', (function() {
+  textArea.focus();
+}));
